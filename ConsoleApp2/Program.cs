@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-
-namespace ContainerManagementSystem
-{
+﻿
     public abstract class Kontener
     {
         public string NumerSeryjny { get; }
@@ -269,4 +264,3 @@ namespace ContainerManagementSystem
             ship.WyswietlInfoStatku();
         }
     }
-}
